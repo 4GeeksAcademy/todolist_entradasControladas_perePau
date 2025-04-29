@@ -9,3 +9,13 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.list-group-item .fa-trash-can {
+    visibility: hidden;
+    cursor: pointer;
+
+}
+
+.list-group-item:hover .fa-trash-can{
+    visibility: visible;
+    cursor: pointer;
+}
